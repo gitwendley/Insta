@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #000;
+    transition: all .5s ease;
+    border-right: 3px solid white;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    line-height: 70px;
+    background: black;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 55px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.sidebar ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+/* End */
+.middle-section{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-left: 1px solid white;
+    height: 200px;
+    width: 99%;
+}
+.story {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.story p{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    font-weight: 600;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+/*End*/
+  .post-container{
+    display: flex;
+    justify-content: center;
+  }
+.post {
+  margin: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  width: 400px;
+  margin-left: 220px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-header h3 {
+  margin: 0;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-content img {
+  width: 100%;
+  height: auto;
+}
+
+.post-content p {
+  margin-top: 10px;
+}
+
+.post-footer {
+  margin-top: 10px;
+}
+
+.post-footer i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+}
+
+.post-footer i:hover {
+  color: #ff5a5f;
+}
+
+  
+  
+  
